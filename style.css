@@ -1,0 +1,37 @@
+body{
+ background-image: url(morango\ fundo.jpg);
+ background-size: cover;
+}
+h1{ 
+    text-align: center;
+    color:#ef027d;
+    font-size: 50px;
+    font-family: 'Roboto Condensed';
+}
+.myButton {
+	box-shadow:inset 1px 0px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 53px;
+	text-decoration:none;
+	text-shadow:0px 5px 0px #c70067;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+p{
+    color: white;
+    text-align: left;
+}
